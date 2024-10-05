@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.backimg img{
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(25%);
+    
+}
+.logo img{
+    position: absolute;
+    width: 150px;
+    top: 30px;
+    left: 150px;
+
+}
+.content{
+    position:absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    font-size: larger;
+    text-align: center;
+    color: aliceblue;
+}
+.logo select{
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    padding: 7px;
+    color: white;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+#btn{
+    position: absolute;
+    background-color: rgb(224, 24, 24);
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    top: 20px;
+    right: 25px;
+}
+.content h1{
+    font-size:50px;
+}
+
+h1{
+    padding: 0px;
+}
+table{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+table td input{
+    background-color: rgba(0,0,0,0.5);
+    width: 350px;
+    color: white;
+    height: 7vh;
+    border-radius: 5px;
+    border: 1px,solid,silver;
+}
+table td button{
+    background-color: red;
+    color: white;
+    width: 175px;
+    padding: 10px;
+    height: 8vh;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+table td input,placeholder{
+    padding-left: 10px;
+    color: silver;
+}
+
+
