@@ -83,4 +83,86 @@ table td input,placeholder{
     color: silver;
 }
 
+.container2{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 150vh;
+    background-color: black;
+    color: white;
+   
+}
+#head2{
+    position: relative;
+    font-size: x-large;
+    left: 50px;
+    top: 50px;
+    
+}
+select{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+#country{
+    padding-top:10px ;
+}
+#movie-image{
+    max-height: 300px;  
+    overflow-y: scroll;  
+    overflow-x: hidden;
+    width: 100%;
+     
+}
+#movie-image img {
+   margin-top: 20px;
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out;
+    
+  }
+#movie-image img:hover{
+    transform: scale(1.2);
+}
 
+.head3{
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+.all-box{
+    display: flex;
+    gap: 10px;
+}
+#box1{
+    border: 2px,solid;
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    background: rgb(94,57,120);
+    background: linear-gradient(90deg, rgba(94,57,120,1) 0%, rgba(142,26,214,1) 13%, rgba(111,27,187,1) 54%, rgba(108,0,255,0.5355392156862745) 90%);    
+}
+#box1 img{
+    position: relative;
+    border-radius: 50%;
+    width: 30%;
+    height: 35%;
+    left: 160px;
+}
+#box2{
+    border: 2px,solid;
+    border-radius: 20px;
+    padding: 20px;
+    
+    width: 300px;
+    background: rgb(94,57,120);
+    background: linear-gradient(90deg, rgba(94,57,120,1) 0%, rgba(142,26,214,1) 13%, rgba(111,27,187,1) 54%, rgba(108,0,255,0.5355392156862745) 90%);    
+}
+#box2 img{
+    position: relative;
+    border-radius: 50%;
+    width: 30%;
+    height: 35%;
+    left: 190px;
+}
